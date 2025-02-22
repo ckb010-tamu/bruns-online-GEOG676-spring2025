@@ -115,7 +115,7 @@ class tool(object):
 
         arcpy.Intersect_analysis([garageBuffered, buildings], gdb_path + '\Garage_Buildings_Intersection', 'ALL')
 
-        arcpy.TableToTable_conversion(gdb_path + '\Garage_Buildings_Intersection.dbf', r'C:\Users\ckb010\bruns-online-GEOG676-spring2025\Labs\lab_5\lab_5_ArcPro', 'nearbyBuildings.csv')
+        arcpy.TableToTable_conversion(gdb_path + '\Garage_Buildings_Intersection.dbf', r'C:\Users\ckb010\bruns-online-GEOG676-spring2025\Labs\lab_4', 'nearbyBuildings.csv')
 
         return None
 
