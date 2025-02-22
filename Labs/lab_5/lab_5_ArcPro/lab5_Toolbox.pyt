@@ -118,8 +118,3 @@ class tool(object):
         arcpy.TableToTable_conversion(gdb_path + '\Garage_Buildings_Intersection.dbf', r'C:\Users\ckb010\bruns-online-GEOG676-spring2025\Labs\lab_5\lab_5_ArcPro', 'nearbyBuildings.csv')
 
         return None
-
-    def postExecute(self, parameters):
-        """This method takes place after outputs are processed and
-        added to the display."""
-        return
