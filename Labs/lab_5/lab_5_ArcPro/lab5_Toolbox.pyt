@@ -106,7 +106,7 @@ class tool(object):
         arcpy.Copy_management(buildings_campus, buildings)
 
 
-        spatial_ref = arcpy.Describe(buildings).satialReference
+        spatial_ref = arcpy.Describe(buildings).spatialReference
         arcpy.Project_management(garage_points, gdb_path + '\Garage_Points_reprojected', spatial_ref)
 
         buffer_distance = int(parameters[5].value)
