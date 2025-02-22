@@ -96,7 +96,7 @@ class tool(object):
         garages = arcpy.MakeXYEventLayer_management(csv_path, 'X', 'Y', garage_layer_name)
 
         input_layer = garages
-        arcpy.FeatureClassToFeatureClass_conversion(input_layer, gdb_path)
+        arcpy.FeatureClassToGeodatabase_conversion(input_layer, gdb_path)
         garage_points = gdb_path + '\\' + garage_layer_name
 
         campus = parameters[4].valueAsText
