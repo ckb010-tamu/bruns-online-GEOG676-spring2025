@@ -19,7 +19,6 @@ class tool(object):
         """Define the tool (tool name is the name of the class)."""
         self.label = "Building Proximity"
         self.description = "Determines which buildings on TAMU's campus are near a targeted building"
-        self.canRunInBackground = False
         self.category = "Building Tools"
 
     def getParameterInfo(self):
