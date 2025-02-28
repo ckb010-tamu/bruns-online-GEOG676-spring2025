@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Friday, February 28, 2025 12:30:02 PM</msg><msg code="0" type="0">Validating Project File...</msg><msg code="0" type="0">Finding your map layer...</msg><msg code="1" type="100">﻿Traceback (most recent call last):
+﻿  File "C:\Users\ckb010\bruns-online-GEOG676-spring2025\Labs\lab_6\lab_6_ArcPro\Maptool_Bruns.pyt", line 108, in execute
+﻿    for layer in campus.listlayers():
+﻿                 ^^^^^^^^^^^^^^^^^
+﻿AttributeError: 'Map' object has no attribute 'listlayers'. Did you mean: 'listLayers'?
+</msg><msg code="-2147467259" type="100">Failed to execute (GraduatedColorsRenderer).</msg><msg code="0" type="3">Failed at Friday, February 28, 2025 12:30:09 PM (Elapsed Time: 6.35 seconds)</msg></messages>

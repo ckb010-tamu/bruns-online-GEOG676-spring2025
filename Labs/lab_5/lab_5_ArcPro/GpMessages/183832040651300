@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Saturday, February 22, 2025 2:22:44 PM</msg><msg code="1" type="100">﻿Traceback (most recent call last):
+﻿  File "C:\Users\ckb010\bruns-online-GEOG676-spring2025\Labs\lab_5\lab_5_ArcPro\lab5_Toolbox.pyt", line 99, in execute
+﻿    arcpy.FeatureClassToFeatureClass_conversion(input_layer, gdb_path)
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\conversion.py", line 4052, in FeatureClassToFeatureClass
+﻿    raise e
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\conversion.py", line 4046, in FeatureClassToFeatureClass
+﻿    gp.FeatureClassToFeatureClass_conversion(
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\geoprocessing\_base.py", line 532, in &lt;lambda&gt;
+﻿    return lambda *args: val(*gp_fixargs(args, True))
+﻿                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+﻿arcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.
+ERROR 000735: Output Feature Class: Value is required
+Failed to execute (FeatureClassToFeatureClass).
+
+</msg><msg code="-2147467259" type="100">Failed to execute (tool).</msg><msg code="0" type="3">Failed at Saturday, February 22, 2025 2:22:45 PM (Elapsed Time: 0.83 seconds)</msg></messages>
